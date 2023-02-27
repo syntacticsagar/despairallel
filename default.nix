@@ -6,5 +6,7 @@ in pkgs.mkShell {
     pkgs.jdk17_headless
     pkgs.graphviz
     pkgs.gnuplot
+    pkgs.leiningen
+    pkgs.redpanda
   ];
 }
